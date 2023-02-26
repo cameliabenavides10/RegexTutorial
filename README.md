@@ -48,4 +48,4 @@ Flags are additional parameters that can help modify the behavior of regular exp
 Character escape will restore the original literal meaning of the following character instead of the special meaning in regex. To use this you simply need to add a forward slash followed by the character such as \+ or \*. this are important as we might need to write an expression without converting the meaning of a character to something we dont need. 
 ## Author
 
-A former social worker turned MERN stack developer. A link to my github: 
+A former social worker turned MERN stack developer. A link to my github: https://github.com/cameliabenavides10
