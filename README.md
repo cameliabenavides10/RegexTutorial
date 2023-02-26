@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regular Expression Tutorial
 
-Introductory paragraph (replace this with your text)
+Regular expressions, or regex, are expresions used to find patterns in text data. THey are most commonly used to search and stract data, validate data, data clean and normalize, and text manipulation and transformation. It is a very versatile tool. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+ The regular expression "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" is used to validate email addresses. The caret ^ anchor matches the start of a string, the '[A-Za-z0-9._%+-]+' is a charater class that matches one or more occurances of letteers which can be upper or lower case, digits, and special characters which are usually in email addresses. The @, seperates the local part of the email from the domain. The [A-Za-z0-9.-]+ character class matches letters, upper or lower case, and digits, or hyphens which are usually in domain names. The \. matches a period character which is used to separate domain name segments. The forward slash before the period in this case is a character escape since the period can be used as a metacharacter as well. The [A-Za-z]{2,} character class matches two or more letters which will represent the .com or .edu part of an email. Then at the end we have our "$" anchor which matches the end of a string. 
 
 ## Table of Contents
 
